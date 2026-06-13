@@ -1,0 +1,6 @@
+{
+  "name": "Cloudflare Multi-IP Proxy Manager",
+  "description": "An interactive management panel and configuration tool for deploying, filtering, and monitoring multi-IP Cloudflare SOCKS5 proxies.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

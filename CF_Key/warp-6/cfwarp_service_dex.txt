@@ -1,0 +1,3 @@
+2026-06-11T13:55:10.731Z  WARN dex: Failed to launch DEX tests. err=Cannot launch DEX tasks for non-teams registration.
+2026-06-11T13:55:11.355Z  WARN dex: Failed to launch DEX tests. err=Cannot launch DEX tasks for non-teams registration.
+2026-06-11T13:55:12.302Z  WARN dex: Failed to launch DEX tests. err=Cannot launch DEX tasks for non-teams registration.

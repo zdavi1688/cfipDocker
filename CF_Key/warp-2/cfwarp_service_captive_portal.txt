@@ -1,0 +1,46 @@
+2026-06-11T12:45:33.341Z DEBUG captive_portal: Running captive portal detections [legacy,os-detected,http-redirect[cloudflareportal.com],no-dns-redirect[cloudflareportal.com],expected-content,third-party]
+2026-06-11T12:45:33.342Z  INFO captive_portal::detections::http_redirect: Checking for captive portal with HTTP-Redirect detection host="connectivitycheck.gstatic.com" ips=None interface=None bind_addr=None
+2026-06-11T12:45:33.342Z  INFO run{detection_type=legacy}: captive_portal::detections::legacy: Checking for captive portal with legacy detection urls=["cloudflareportal.com", "cloudflareok.com", "cloudflarecp.com"]
+2026-06-11T12:45:33.343Z DEBUG run{detection_type=os-detected}: captive_portal::detections: return=Ok(NoCaptivePortalDetected)
+2026-06-11T12:45:33.343Z  INFO run{detection_type=http-redirect[cloudflareportal.com]}: captive_portal::detections::http_redirect: Checking for captive portal with HTTP-Redirect detection host="cloudflareportal.com" ips=None interface=None bind_addr=None
+2026-06-11T12:45:33.343Z  INFO captive_portal::detections::http_redirect: Checking for captive portal with HTTP-Redirect detection host="captive.apple.com" ips=None interface=None bind_addr=None
+2026-06-11T12:45:33.344Z  INFO run{detection_type=no-dns-redirect[cloudflareportal.com]}: captive_portal::detections::http_redirect: Checking for captive portal with HTTP-Redirect detection host="cloudflareportal.com" ips=Some([104.24.0.1, 162.159.137.65, 172.64.1.0, 2606:4700:7::1, 2606:4700::1]) interface=None bind_addr=None
+2026-06-11T12:45:33.354Z  INFO captive_portal::detections::http_redirect: Checking for captive portal with HTTP-Redirect detection host="www.msftconnecttest.com" ips=None interface=None bind_addr=None
+2026-06-11T12:45:33.358Z  INFO run{detection_type=legacy}: captive_portal::detections::legacy: Successfully resolved DNS queries
+2026-06-11T12:45:33.358Z DEBUG captive_portal::detections::http_redirect: 204 response for HTTP test. No captive portal detected
+2026-06-11T12:45:33.364Z DEBUG captive_portal::detections::http_redirect: 200 response for HTTP test. No captive portal detected
+2026-06-11T12:45:33.375Z DEBUG captive_portal::detections::http_redirect: 200 response for HTTP test. No captive portal detected
+2026-06-11T12:45:33.375Z DEBUG run{detection_type=third-party}: captive_portal::detections::third_party: Third party detections complete detections=[("connectivitycheck.gstatic.com", Ok(NoCaptivePortalDetected)), ("captive.apple.com", Ok(NoCaptivePortalDetected)), ("www.msftconnecttest.com", Ok(NoCaptivePortalDetected))]
+2026-06-11T12:45:33.375Z DEBUG run{detection_type=third-party}: captive_portal::detections: return=Ok(NoCaptivePortalDetected)
+2026-06-11T12:45:33.398Z DEBUG run{detection_type=no-dns-redirect[cloudflareportal.com]}: captive_portal::detections::http_redirect: 204 response for HTTP test. No captive portal detected
+2026-06-11T12:45:33.398Z DEBUG run{detection_type=no-dns-redirect[cloudflareportal.com]}: captive_portal::detections: return=Ok(NoCaptivePortalDetected)
+2026-06-11T12:45:33.410Z DEBUG run{detection_type=http-redirect[cloudflareportal.com]}: captive_portal::detections::http_redirect: 204 response for HTTP test. No captive portal detected
+2026-06-11T12:45:33.410Z DEBUG run{detection_type=http-redirect[cloudflareportal.com]}: captive_portal::detections: return=Ok(NoCaptivePortalDetected)
+2026-06-11T12:45:33.417Z DEBUG run{detection_type=expected-content}: captive_portal::detections::expected_content: 200 response and correct content for HTTP Content test. No captive portal detected
+2026-06-11T12:45:33.417Z DEBUG run{detection_type=expected-content}: captive_portal::detections: return=Ok(NoCaptivePortalDetected)
+2026-06-11T12:45:33.441Z  INFO run{detection_type=legacy}: captive_portal::detections::legacy: Successfully retrieved HTTPs page
+2026-06-11T12:45:33.441Z DEBUG run{detection_type=legacy}: captive_portal::detections: return=Ok(NoCaptivePortalDetected)
+2026-06-11T12:45:33.441Z DEBUG captive_portal: Captive portal detection completed results=[("os-detected", Ok(NoCaptivePortalDetected)), ("third-party", Ok(NoCaptivePortalDetected)), ("no-dns-redirect[cloudflareportal.com]", Ok(NoCaptivePortalDetected)), ("http-redirect[cloudflareportal.com]", Ok(NoCaptivePortalDetected)), ("expected-content", Ok(NoCaptivePortalDetected)), ("legacy", Ok(NoCaptivePortalDetected))]
+2026-06-11T13:55:11.379Z DEBUG captive_portal: Running captive portal detections [legacy,os-detected,http-redirect[cloudflareportal.com],no-dns-redirect[cloudflareportal.com],expected-content,third-party]
+2026-06-11T13:55:11.379Z  INFO captive_portal::detections::http_redirect: Checking for captive portal with HTTP-Redirect detection host="connectivitycheck.gstatic.com" ips=None interface=None bind_addr=None
+2026-06-11T13:55:11.381Z  INFO run{detection_type=http-redirect[cloudflareportal.com]}: captive_portal::detections::http_redirect: Checking for captive portal with HTTP-Redirect detection host="cloudflareportal.com" ips=None interface=None bind_addr=None
+2026-06-11T13:55:11.382Z  INFO run{detection_type=no-dns-redirect[cloudflareportal.com]}: captive_portal::detections::http_redirect: Checking for captive portal with HTTP-Redirect detection host="cloudflareportal.com" ips=Some([104.24.0.1, 162.159.137.65, 172.64.1.0, 2606:4700:7::1, 2606:4700::1]) interface=None bind_addr=None
+2026-06-11T13:55:11.386Z  INFO run{detection_type=legacy}: captive_portal::detections::legacy: Checking for captive portal with legacy detection urls=["cloudflareportal.com", "cloudflareok.com", "cloudflarecp.com"]
+2026-06-11T13:55:11.387Z DEBUG run{detection_type=os-detected}: captive_portal::detections: return=Ok(NoCaptivePortalDetected)
+2026-06-11T13:55:11.389Z  INFO captive_portal::detections::http_redirect: Checking for captive portal with HTTP-Redirect detection host="captive.apple.com" ips=None interface=None bind_addr=None
+2026-06-11T13:55:11.389Z  INFO captive_portal::detections::http_redirect: Checking for captive portal with HTTP-Redirect detection host="www.msftconnecttest.com" ips=None interface=None bind_addr=None
+2026-06-11T13:55:11.392Z DEBUG captive_portal::detections::http_redirect: 204 response for HTTP test. No captive portal detected
+2026-06-11T13:55:11.397Z  INFO run{detection_type=legacy}: captive_portal::detections::legacy: Successfully resolved DNS queries
+2026-06-11T13:55:11.409Z DEBUG captive_portal::detections::http_redirect: 200 response for HTTP test. No captive portal detected
+2026-06-11T13:55:11.413Z DEBUG captive_portal::detections::http_redirect: 200 response for HTTP test. No captive portal detected
+2026-06-11T13:55:11.413Z DEBUG run{detection_type=third-party}: captive_portal::detections::third_party: Third party detections complete detections=[("connectivitycheck.gstatic.com", Ok(NoCaptivePortalDetected)), ("captive.apple.com", Ok(NoCaptivePortalDetected)), ("www.msftconnecttest.com", Ok(NoCaptivePortalDetected))]
+2026-06-11T13:55:11.413Z DEBUG run{detection_type=third-party}: captive_portal::detections: return=Ok(NoCaptivePortalDetected)
+2026-06-11T13:55:11.442Z DEBUG run{detection_type=http-redirect[cloudflareportal.com]}: captive_portal::detections::http_redirect: 204 response for HTTP test. No captive portal detected
+2026-06-11T13:55:11.442Z DEBUG run{detection_type=http-redirect[cloudflareportal.com]}: captive_portal::detections: return=Ok(NoCaptivePortalDetected)
+2026-06-11T13:55:11.444Z DEBUG run{detection_type=expected-content}: captive_portal::detections::expected_content: 200 response and correct content for HTTP Content test. No captive portal detected
+2026-06-11T13:55:11.444Z DEBUG run{detection_type=expected-content}: captive_portal::detections: return=Ok(NoCaptivePortalDetected)
+2026-06-11T13:55:11.451Z DEBUG run{detection_type=no-dns-redirect[cloudflareportal.com]}: captive_portal::detections::http_redirect: 204 response for HTTP test. No captive portal detected
+2026-06-11T13:55:11.451Z DEBUG run{detection_type=no-dns-redirect[cloudflareportal.com]}: captive_portal::detections: return=Ok(NoCaptivePortalDetected)
+2026-06-11T13:55:11.478Z  INFO run{detection_type=legacy}: captive_portal::detections::legacy: Successfully retrieved HTTPs page
+2026-06-11T13:55:11.478Z DEBUG run{detection_type=legacy}: captive_portal::detections: return=Ok(NoCaptivePortalDetected)
+2026-06-11T13:55:11.478Z DEBUG captive_portal: Captive portal detection completed results=[("os-detected", Ok(NoCaptivePortalDetected)), ("third-party", Ok(NoCaptivePortalDetected)), ("http-redirect[cloudflareportal.com]", Ok(NoCaptivePortalDetected)), ("expected-content", Ok(NoCaptivePortalDetected)), ("no-dns-redirect[cloudflareportal.com]", Ok(NoCaptivePortalDetected)), ("legacy", Ok(NoCaptivePortalDetected))]
